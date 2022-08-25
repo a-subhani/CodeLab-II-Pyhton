@@ -1,31 +1,19 @@
 # Resources
 
-This folder contains files required for the file handling tasks in chapter 7 as well as some useful code snippets for common C++ tasks. 
+This folder contains files required for the file handling tasks in chapter 4 as well as some useful code snippets for common tasks. 
 
 &nbsp;
 &nbsp;
 
 ## Invalid number input
 
-```C++
-#include <iostream>
-using namespace std;
-
-int main(){
-  //Check if user enters valid input
-  cout << "Enter a number: " << endl;
-  int x;
-  cin >> x;
-  while (cin.fail()) {
-    cout << "Invalid input" << endl;
-    cin.clear(); //clear bad input flag
-    cin.ignore(1000, '\n'); //ignore input
-    cin >> x; //get number again
-  }
-  cout << "Input number: " << x << endl;
-
-  return 0;
-}
+```python
+#Check if user enters valid input
+x = input("Enter a number: " )
+while (not x.isnumeric()):
+    print("Invalid input")
+    x = input("Enter a number: " ) #get number again
+print("Input number: ", x )
 ```
 
 &nbsp;
@@ -33,20 +21,14 @@ int main(){
 
 ## Random Number generation
 
-```C++
-#include <iostream>
-#include <time.h> //needed for random number generation
-using namespace std;
+```python
+# Program to generate 5 random numbers between 0 and 100
 
-int main() {
-
-  //Get random number
-  srand(time(NULL)); //set random seed
-  int y = rand() % 100 + 1; //get random number between 1 and 100
-  cout << "Random: " << y << endl;
-
-  return 0;
-}
+# importing the random module
+import random
+for i in range(0,5):
+    print(random.randint(0,100))
+    #randint() generates random values
 ```
 
 &nbsp;
@@ -54,24 +36,25 @@ int main() {
 
 ## Check for number in String
 
-```C++
-#include <iostream>
-#include <string>
-using namespace std;
+```python
+# Check if string contains any number
+# Using isdigit() + any()
+ 
+# initializing string
+text = 'CodeLab 2 Module'
+ 
+# printing original string
+print("The original string is : " + str(text))
+ 
+# using any() to check for any occurrence
+res = any(chr.isdigit() for chr in text)
+     
+if res == True:
+    # printing result
+    print("string contains digit ")
+else:
+    print("String has no digit")
 
-int main() {
-
-  //check if string contains digit
-  string str1 = "Hello123";
-  for (int i = 0; i < str1.length(); i++) {
-    if (isdigit(str1[i])) {
-      cout << "String contains a digit" << endl;
-      break;
-    }
-  }
-
-  return 0;
-}
 ```
 
 &nbsp;
@@ -79,58 +62,18 @@ int main() {
 
 ## Convert to upper / lower case
 
-```C++
-#include <iostream>
-#include <string>
-#include <algorithm>
-using namespace std;
+```python
+# Convert to lowercase/uppercase
 
-int main(){
-
-  //upper case
-  string str1 = "Hello123";
-  for (int i = 0; i < str1.length(); i++) {
-    str1[i] = toupper(str1[i]);
-  }
-  cout << str1 << endl;
-
-  //alternative using transform method from algorithm library
-  transform(str1.begin(), str1.end(), str1.begin(), ::tolower);
-  cout << str1 << endl;
-
-  return 0;
-}
+# initializing string
+text = input("Enter the text")
+if text.isupper():
+    print(text.lower()) 
+    #Converts to lowercase
+else:
+    print(text.upper())
+     #Converts to uppercase
 ```
 
-&nbsp;
-&nbsp;
 
-## String Comparison
 
-```C++
-#include <iostream>
-#include <string>
-using namespace std;
-
-int main(){
-
-  //string comparison
-  string str2 = "Code";
-  string str3 = "Lab";
-  if (str2.compare(str3) == 0) {
-    cout << "Strings are the same" << endl;
-  }
-  else{
-    cout << "Strings are not the same" << endl;
-  }
-
-  //string comparison alternative
-  if (str2 == str3) {
-    cout << "Strings are the same" << endl;
-  }else {
-    cout << "Strings are not the same" << endl;
-  }
-
-  return 0;
-}
-```
