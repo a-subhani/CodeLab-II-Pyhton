@@ -6,13 +6,13 @@ Once you have completed your solution you should make sure you commit and push y
 ---
 &nbsp;
 &nbsp;
-## Exercise 1: Woof Woof 
+## Exercise 1: Woof Woof ☑️
  
 Write a program that declares a class which defines the characteristics of a dog. The program should instantiate two objects from this class and assign data to its members.
 The program should then output the data from each object and the oldest dog should woof via a class method.
 &nbsp;
 &nbsp;
-## Exercise 2: Student Class
+## Exercise 2: Student Class ☑️
 Create a class called students.
 - The class should have the following members.```Name (string), Mark1 (int), Mark2 (int), Mark3 (int) ``` 
 - The class should have the following methods
@@ -21,7 +21,7 @@ Create a class called students.
 - Ask user to input the variable values using input() and pass the values to the second object
 &nbsp;
 &nbsp;
-## Exercise 3 :
+## Exercise 3 :Employee Class ☑️
 Create an employee class with the following members:
  ```name, age, id, salary```
 - Add the following methods:
@@ -43,7 +43,7 @@ EEE              22      5       4000
 ```
 &nbsp;
 &nbsp;
-## Exercise 4: Shapes
+## Exercise 4: Shapes ☑️
 Create a parent class called shape. This should have following methods
 ```inputSides()``` – Ask user to enter the sides of the shape. Now create subclasses for a circle, rectangle and triangle. These should include an appropriate ```area()``` method that will use the side values from the shape class.
 &nbsp;
