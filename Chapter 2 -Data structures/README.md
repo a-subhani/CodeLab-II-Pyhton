@@ -1,4 +1,4 @@
-### Chapter 1
+# Chapter 2 -Data Structures
 Exercises with a tick mark ☑️ represent exercises that must be submitted for the Programming Skills Portfolio as a minimum expectation. Completing more exercises provides the opportunity to attain higher marks. For each exercise you should create a new project with the name of the exercise and save it to this exercises folder in your local repository.
 
 Once you have completed your solution you should make sure you commit and push your solutions to your remote repository on GitHub. You can commit and push as many changes to your solutions as you wish, only those pushed before the deadline will be marked for the Programming Skills Portfolio.
@@ -6,158 +6,73 @@ Once you have completed your solution you should make sure you commit and push y
 ---
 &nbsp;
 
-## Exercise 1: print ☑️ 
+## Exercise 1: Greetings List ☑️ 
 
-Write program to print the following messages
-
-```
-Python uses interpreter to convert source code into machine code.
-Interpreter translates program one statement at a time.
-```
-&nbsp;
-&nbsp;
-## Exercise 2: Constant variable PI ☑️ 
-Write code to calculate the circumference and area of a circle from the radius. The program should ask the user to enter the desired radius of the circle.
-PI is defined as: ```3.14159 ```
-Area is defined as: ```PI * radius * radius ```
-Circumference is defined as: ```PI * Radius * 2```
-&nbsp;
-&nbsp;
-## Exercise 3 a: User Input Output ☑️ 
-Write code to prompt the user to input her/his name, age and hometown and print these details on the screen. The format of text should look like the sample output below but you can only use a single print when outputting the information.
-```
-Your Name is: Alpha
-Your Age is: 22
-Your Hometown is: Ras Al Khaimah
-```
-&nbsp;
-&nbsp;
-## Exercise 3 b: User Input Output ☑️ 
-Write code to prompt the user to input her/his name and age and print these details on the screen. Find the length of the name and also the age of the user after one year.
-The format of text should look like the sample output below.
-(Use title() function)
-```
-Hello, user!
-What is your name?
-alpha s
-What is your age?
-22
-It is good to meet you, Alpha S
-The length of your name is:
-5
-You will be 23 in a year.
-```
-&nbsp;
-&nbsp;
-## Exercise 4: Number Input Output ☑️ 
-Write code to prompt the user to input 3 integer values and print these values in forward and reversed order in a similar format to the below.
-```
-enter three numbers
-number 1 :10
-number 2 :20
-number 3 :60
-Your numbers forward:
-10
-20
-60
-Your numbers reversed:
-60
-20
-10
-```
-&nbsp;
-&nbsp;
-## Exercise 5: Maths ☑️ 
-Write a program that evaluates the following calculations for two int numbers obtained from the user and outputs the results to the console:
-
-```Sum (+) | Diff (-) | Product (x) | Quotient (/) | Remainder (%)```
-
-&nbsp;
-&nbsp;
-## Exercise 6: Is it Triangle ☑️ 
-Write a program that asks the user to enter the lengths of the three sides of a triangle.
-Use the triangle inequality to determine if we have a triangle: In mathematics, the triangle inequality states that for any triangle, the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side ([see here](https://en.wikipedia.org/wiki/Triangle_inequality))
-#### Extension Problem (Optional):
-If valid, as the user for the length of the sides and have the program correctly classify the type of triangle as either: Equilateral, Isosceles or Scalene  ([see here](https://www.mathsisfun.com/triangle.html))
+Write a program to store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time. 
 &nbsp;
 &nbsp;
 
-## Exercise 7: Is it Even? ☑️ 
-Write a program that allows the user to input a number and checks whether the number is even or not using the Ternary operator.
+## Exercise 2: Guests List☑️ 
+If you could invite your friends to dinner, who would you invite? 
+- Make a list that includes at least three friends you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
+- You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. Add a print statement at the end of your program stating the name of the guest who can’t make it.
+- Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
+- Print a second set of invitation messages, one for each person who is still in your list.
+- You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner. Use insert() to add one new guest to the beginning of  your list. Use insert() to add one new guest to the middle of your list. Use append() to add one new guest to the end of your list.
+- Print a new set of invitation messages, one for each person in your list.
+- You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests. Print a message saying that you can invite only two people for dinner. 
+- Use pop() to remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner. 
+- Print a message to each of the two people still on your list, letting them know they’re still invited.
+- Use del to remove the last two names from your list, so you have an empty list.
+- Print your list to make sure you actually have an empty list at the end of your program.
 
 &nbsp;
 &nbsp;
-## Exercise 8: Largest Number ☑️ 
-Write a program to input three numbers and outputs the largest using
-- The Ternary operator
-- The multiple if -else operator
+## Exercise 3 : Film Dictionary☑️ 
+Create a dictionary that contains relevant data for films (e.g. Title, Director, etc). Display the film details using loop
 
 &nbsp;
 &nbsp;
-## Exercise 9: continue ☑️ 
-Write a program that implements a while loop. This program should ask the user if they would like to continue and use the while loop to keep looping as long as they enter the letter Y. Once the while loop has terminated output the number of times it is executed.
+## Exercise 4: Year Tuples☑️ 
+
+Create a tuple with values
+
+```year = (2017,2003,2011,2005,1987,2009,2020,2018,2009)```
+
+- Access the value at index -3
+- Reverse the tuple and print the original tuple and reversed tuple 
+- Count number of times 2009 is in the tuple (use count() method) 
+- Get the index value of 2018(Use index method) 
+- Find length of given tuple(Use len() method)
 
 &nbsp;
 &nbsp;
-## Exercise 10: FizzBuzz ☑️ 
-Write a program that prints the numbers from 1 to 100. But for multiples of three print Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+## Exercise 5: Count items☑️ 
+Write Python Program to Count the Number of Times an Item Appears in the List
+
+```novels = ["gone_girl", "davinci_code", "games_of_thrones", "gone_girl", "davinci_code"]```
+
+(Hint: For each item in the list consider it as a key, and the number of times these items appear will be its associated value)
 
 &nbsp;
 &nbsp;
-## Exercise 11: Even Numbers ☑️ 
-Write a program that prints the even numbers from 1 to 100. 
-Hint - Use Continue Statement
+## Optional Exercise 6: Locations List
+Using the list 
 
-&nbsp;
-&nbsp;
-## Optional Exercise 12:  Count seconds
-Write a program that calculates the number of seconds in a day.
-Hint: Ask user to enter number of days, Convert days into hours, hours to minutes, minutes to seconds
+```locations =['dubai','paris', 'switzerland', 'London', 'amsterdam', 'New York']```
 
+- Print the list and find the length of the list
+- Use sorted() to print your list in alphabetical order without modifying the actual list.
+- Show that your list is still in its original order by printing it.
+- Use sorted() to print your list in reverse alphabetical order without changing the order of the original list
+- Show that your list is still in its original order by printing it again.
+- Use reverse() to change the order of your list.
+- Print the list to show that its order has changed.
+- Use sort() to change your list so it’s stored in alphabetical order.
+- Print the list to show that its order has been changed.
+- Use sort() to change your list so it’s stored in reverse alphabetical order.
+- Print the list to show that its order has changed.
 &nbsp;
 &nbsp;
-## Optional Exercise 13: Sum of Digits in a Number 
-Write Python Program to Find the Sum of Digits in a Number .For example if enters a number 1234 the result is 1+2+3+4 = 10
-
-&nbsp;
-&nbsp;
-## Optional Exercise 14: Print Pattern
-Write a program to display the following pattern using nested loops.
-```
-1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
-```
-&nbsp;
-&nbsp;
-## Optional Exercise 15: Multiplication Tables
-
-Write a program to print Multiplication table in following format from 1 to 10 tables
-Hint: Use nested loops
-```
-Multiplication table of : 1
-1 x 1 = 1
-1 x 2 = 2
-1 x 3 = 3
-1 x 4 = 4
-1 x 5 = 5
-1 x 6 = 6
-1 x 7 = 7
-1 x 8 = 8
-1 x 9 = 9
-1 x 10 = 10
-…
-Multiplication table of : 10
-10 x 1 = 10
-10 x 2 = 20
-10 x 3 = 30
-10 x 4 = 40
-10 x 5 = 50
-10 x 6 = 60
-10 x 7 = 70
-10 x 8 = 80
-10 x 9 = 90
-10 x 10 = 100
-```
+## Optional Exercise 7:Cities Dictionary
+Make a dictionary called cities. Use the names of three cities as keys in your dictionary. Create a dictionary of information about each city and include the country that the city is in, its approximate population, and one fact about that city. The keys for each city’s dictionary should be something like country, population, and fact. Print the name of each city and all of the information you have stored about it.
