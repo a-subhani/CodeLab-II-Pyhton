@@ -1,78 +1,58 @@
-# Chapter 2 - Exercises
+# Chapter 4 - Exercises
 Exercises with a tick mark ☑️ represent exercises that must be submitted for the Programming Skills Portfolio as a minimum expectation. Completing more exercises provides the opportunity to attain higher marks. For each exercise you should create a new project with the name of the exercise and save it to this folder in your local repository.
 
 Once you have completed your solution you should make sure you commit and push your solutions to your remote repository on GitHub. You can commit and push as many changes to your solutions as you wish, only those pushed before the deadline will be marked for the Programming Skills Portfolio.
 
 ---
 &nbsp;
-
-## Exercise 1: Greetings List ☑️ 
-
-Write a program to store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time. 
+&nbsp;
+## Exercise 1: User information ☑️ 
+Write a program to create a file called “bio.txt” and write the following information to the file asking user to enter the values:
+Name
+Age
+Hometown
+Each piece of data should be on a new line
+Once the data has been written to the file, read the data from the file and output the data.
 &nbsp;
 &nbsp;
-
-## Exercise 2: Guests List☑️ 
-If you could invite your friends to dinner, who would you invite? 
-- Make a list that includes at least three friends you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
-- You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. Add a print statement at the end of your program stating the name of the guest who can’t make it.
-- Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
-- Print a second set of invitation messages, one for each person who is still in your list.
-- You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner. Use insert() to add one new guest to the beginning of  your list. Use insert() to add one new guest to the middle of your list. Use append() to add one new guest to the end of your list.
-- Print a new set of invitation messages, one for each person in your list.
-- You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests. Print a message saying that you can invite only two people for dinner. 
-- Use pop() to remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner. 
-- Print a message to each of the two people still on your list, letting them know they’re still invited.
-- Use del to remove the last two names from your list, so you have an empty list.
-- Print your list to make sure you actually have an empty list at the end of your program.
+## Exercise 2: Count ☑️ 
+The file sentences.txt has a list of string data. Create a program that finds out how many times the following sentence appears “Hello my name is Amster Sani”
 
 &nbsp;
 &nbsp;
-## Exercise 3 : Film Dictionary☑️ 
-Create a dictionary that contains relevant data for films (e.g. Title, Director, etc). Display the film details using loop
+## Exercise 3: Reading to a List ☑️ 
+The file numbers.txt has a list of 100 integer numbers each on a newline. Create a program that puts this data into a list, then output the values in integer format.
+&nbsp;
+&nbsp;
+## Exercise 4: Petrol Price ☑️ 
+
+Every time a motorist buys some petrol, he notes the number of liters bought and the amount paid per liter. The data is stored in columns separated by a tabbed space, like the following sample:
+
+Liters	cost
+20.0	  56.40
+9.6	    29.95
+5.0	    15.60
+15.0	  54.30
+18.4	  65.32
+18.7	  75.36
+17.7	  80.00
 
 &nbsp;
 &nbsp;
-## Exercise 4: Year Tuples☑️ 
+## Exercise 5: letter count ☑️ 
 
-Create a tuple with values
-
-```year = (2017,2003,2011,2005,1987,2009,2020,2018,2009)```
-
-- Access the value at index -3
-- Reverse the tuple and print the original tuple and reversed tuple 
-- Count number of times 2009 is in the tuple (use count() method) 
-- Get the index value of 2018(Use index method) 
-- Find length of given tuple(Use len() method)
+Write a program that reads the contents of the sentences.txt file and counts the occurrences of each letter.
 
 &nbsp;
 &nbsp;
-## Exercise 5: Count items☑️ 
-Write Python Program to Count the Number of Times an Item Appears in the List
+## Exercise 6 : Password Check ☑️ 
 
-```novels = ["gone_girl", "davinci_code", "games_of_thrones", "gone_girl", "davinci_code"]```
+Write a program to check the validity of a password given by user. The password should satisfy the following criteria: 
+1. Contain at least 1 letter between a and z 
+2. Contain at least 1 number between 0 and 9 
+3. Contain at least 1 letter between A and Z
+4. Contain at least 1 character from $, #, @ 
+5. Minimum length of password: 6 
+6. Maximum length of password: 12
 
-(Hint: For each item in the list consider it as a key, and the number of times these items appear will be its associated value)
-
-&nbsp;
-&nbsp;
-## Optional Exercise 6: Locations List
-Using the list 
-
-```locations =['dubai','paris', 'switzerland', 'London', 'amsterdam', 'New York']```
-
-- Print the list and find the length of the list
-- Use sorted() to print your list in alphabetical order without modifying the actual list.
-- Show that your list is still in its original order by printing it.
-- Use sorted() to print your list in reverse alphabetical order without changing the order of the original list
-- Show that your list is still in its original order by printing it again.
-- Use reverse() to change the order of your list.
-- Print the list to show that its order has changed.
-- Use sort() to change your list so it’s stored in alphabetical order.
-- Print the list to show that its order has been changed.
-- Use sort() to change your list so it’s stored in reverse alphabetical order.
-- Print the list to show that its order has changed.
-&nbsp;
-&nbsp;
-## Optional Exercise 7:Cities Dictionary
-Make a dictionary called cities. Use the names of three cities as keys in your dictionary. Create a dictionary of information about each city and include the country that the city is in, its approximate population, and one fact about that city. The keys for each city’s dictionary should be something like country, population, and fact. Print the name of each city and all of the information you have stored about it.
+Ask user to include a maximum of 5 passcode attempts. Each time the user enters an incorrect passcode, they should be prompted of how many passcode attempts remain. If there are 5 failed passcode attempts the while loop should break and inform the user that the authorities have been alerted!
