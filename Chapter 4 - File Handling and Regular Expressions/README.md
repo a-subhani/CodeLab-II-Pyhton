@@ -7,7 +7,7 @@ Once you have completed your solution you should make sure you commit and push y
 &nbsp;
 &nbsp;
 ## Exercise 1: User information ☑️ 
-Write a program to create a file called “bio.txt” and write the following information to the file asking user to enter the values:
+Write a program to create a file called ```bio.txt``` and write the following information to the file asking user to enter the values:
 Name
 Age
 Hometown
@@ -16,17 +16,17 @@ Once the data has been written to the file, read the data from the file and outp
 &nbsp;
 &nbsp;
 ## Exercise 2: Count ☑️ 
-The file sentences.txt has a list of string data. Create a program that finds out how many times the following sentence appears “Hello my name is Amster Sani”
+The file ```sentences.txt``` has a list of string data. Create a program that finds out how many times the following sentence appears “Hello my name is Amster Sani”
 
 &nbsp;
 &nbsp;
 ## Exercise 3: Reading to a List ☑️ 
-The file numbers.txt has a list of 100 integer numbers each on a newline. Create a program that puts this data into a list, then output the values in integer format.
+The file ```numbers.txt``` has a list of 100 integer numbers each on a newline. Create a program that puts this data into a list, then output the values in integer format.
 &nbsp;
 &nbsp;
 ## Exercise 4: Petrol Price ☑️ 
 
-Every time a motorist buys some petrol, he notes the number of liters bought and the amount paid per liter. The data is stored in columns separated by a tabbed space, like the following sample:
+Every time a motorist buys some petrol, he notes the number of liters bought and the amount paid per liter. This data can be found in the ```petrolPrice.txt``` file in your GitHub repository.The data is stored in columns separated by a tabbed space, like the following sample:
 ```
 Liters	cost
 20.0	  56.40
@@ -39,9 +39,10 @@ Liters	cost
 ```
 &nbsp;
 &nbsp;
+
 ## Exercise 5: letter count ☑️ 
 
-Write a program that reads the contents of the sentences.txt file and counts the occurrences of each letter.
+Write a program that reads the contents of the ```sentences.txt``` file and counts the occurrences of each letter.
 
 &nbsp;
 &nbsp;
