@@ -6,9 +6,9 @@ Once you have completed your solution you should make sure you commit and push y
 ---
 &nbsp;
 
-## Exercise 1: Greetings List ☑️ 
+## Exercise 1: Input List ☑️ 
 
-Write a program to store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time. 
+Write a program that requests five numbers from the user and adds these into a list. Once the values have been inputted, displaying them to the user is a nicely formatted list.
 &nbsp;
 &nbsp;
 
