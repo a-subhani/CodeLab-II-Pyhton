@@ -12,19 +12,17 @@ Write a program that requests five numbers from the user and adds these into a l
 &nbsp;
 &nbsp;
 
-## Exercise 2: Guests List☑️ 
-If you could invite your friends to dinner, who would you invite? 
-- Make a list that includes at least three friends you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
-- You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. Add a print statement at the end of your program stating the name of the guest who can’t make it.
-- Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
-- Print a second set of invitation messages, one for each person who is still in your list.
-- You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner. Use insert() to add one new guest to the beginning of  your list. Use insert() to add one new guest to the middle of your list. Use append() to add one new guest to the end of your list.
-- Print a new set of invitation messages, one for each person in your list.
-- You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests. Print a message saying that you can invite only two people for dinner. 
-- Use pop() to remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner. 
-- Print a message to each of the two people still on your list, letting them know they’re still invited.
-- Use del to remove the last two names from your list, so you have an empty list.
-- Print your list to make sure you actually have an empty list at the end of your program.
+## Exercise 2: Integer List☑️ 
+
+Create an integer list and perform following operations
+- Create an int list with 10 values
+- Output the list using a for loop
+- Output the highest and lowest value
+- Sort the elements in ascending order
+- Sort the elements in descending order
+- Append two elements 
+- Print the list after appending
+
 
 &nbsp;
 &nbsp;
@@ -50,7 +48,7 @@ Create a tuple with values
 ## Exercise 5: Count items☑️ 
 Write Python Program to Count the Number of Times an Item Appears in the List
 
-```novels = ["gone_girl", "davinci_code", "games_of_thrones", "gone_girl", "davinci_code"]```
+```staff = ["Arshiya", "Usman", "Iftikhar", "Usman", "Anmol","Zainab","Iftikhar", "Arshiya","Jake","Iftikhar"]```
 
 (Hint: For each item in the list consider it as a key, and the number of times these items appear will be its associated value)
 
