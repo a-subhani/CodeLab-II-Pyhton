@@ -12,8 +12,8 @@ Once you have completed your solution you should make sure you commit and push y
 Write program to print the following messages
 
 ```
-Python uses interpreter to convert source code into machine code.
-Interpreter translates program one statement at a time.
+Python uses "interpreter" to convert source code into machine code.
+Interpreter 'translates' program one statement at a time.
 ```
 &nbsp;
 &nbsp;
