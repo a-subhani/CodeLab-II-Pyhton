@@ -39,6 +39,10 @@ Liters	cost
 ```
 &nbsp;
 &nbsp;
+Write a program that calculates:
+
+- What was the overall average price per litre of petrol bought?
+- How much petrol in litres was bought at under 3.5AED per liter?
 
 ## Exercise 5: letter count ☑️ 
 
