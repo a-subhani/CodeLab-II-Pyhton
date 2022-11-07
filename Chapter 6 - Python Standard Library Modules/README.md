@@ -6,12 +6,7 @@ Once you have completed your solution you should make sure you commit and push y
 ---
 &nbsp;
 
-## Exercise 1: Greetings List ☑️ 
-
-Write a program to store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time. 
-&nbsp;
-&nbsp;
-## Exercise 1: Basic Math
+## Exercise 1: Basic Math ☑️
 Using math module compute the following
 - For a =2.3 find the ceil of a
 - For a =2.3 find the floor of a 
